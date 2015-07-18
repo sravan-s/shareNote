@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".universityAndCourseSelector"
+    android:id="@+id/uty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UNIVERSITY"
+        android:id="@+id/universityTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/universityList"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/universityTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="COURSE"
+        android:id="@+id/courseTextView"
+        android:textSize="30dp"
+        android:layout_below="@+id/universityList"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseList"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/courseTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BRANCH"
+        android:id="@+id/branchTextView"
+        android:textSize="30dp"
+        android:layout_below="@+id/courseList"
+        android:layout_alignLeft="@+id/courseTextView"
+        android:layout_alignStart="@+id/courseTextView" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/branchList"
+        android:spinnerMode="dialog"
+        android:layout_below="@+id/branchTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/gotoInfoActivicty"
+        android:layout_below="@+id/branchList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+
+</RelativeLayout>
+<!-- From: file:/home/ss192/AndroidStudioProjects/ShareNote/app/src/main/res/layout/activity_university_and_course_selector.xml -->
