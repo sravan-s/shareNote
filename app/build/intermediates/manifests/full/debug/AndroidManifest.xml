@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="14"
         android:targetSdkVersion="22" />
 
     <application
@@ -39,12 +39,8 @@
                 android:value="com.example.qasas.sharenote.universityInfo" />
         </activity>
         <activity
-            android:name="com.example.qasas.sharenote.notesList"
-            android:label="@string/title_activity_notes_list"
-            android:parentActivityName="com.example.qasas.sharenote.semesterList" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.qasas.sharenote.semesterList" />
+            android:name="com.example.qasas.sharenote.notesl"
+            android:label="@string/title_activity_notesl" >
         </activity>
     </application>
 

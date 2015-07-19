@@ -33,12 +33,8 @@
                 android:value="com.example.qasas.sharenote.universityInfo" />
         </activity>
         <activity
-            android:name=".notesList"
-            android:label="@string/title_activity_notes_list"
-            android:parentActivityName=".semesterList" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.qasas.sharenote.semesterList" />
+            android:name=".notesl"
+            android:label="@string/title_activity_notesl" >
         </activity>
     </application>
 

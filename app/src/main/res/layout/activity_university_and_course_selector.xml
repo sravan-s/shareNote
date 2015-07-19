@@ -72,6 +72,8 @@
         android:id="@+id/gotoInfoActivicty"
         android:layout_below="@+id/branchList"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp" />
+        android:layout_marginTop="53dp"
+        android:clickable="true"
+        android:onClick="openUniversityInfo"/>
 
 </RelativeLayout>
