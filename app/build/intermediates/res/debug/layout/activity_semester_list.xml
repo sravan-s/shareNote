@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:text="semesterX"
         android:id="@+id/button"
+        android:onClick="openNotesList"
         android:layout_below="@+id/universityNametextView"
         android:layout_alignRight="@+id/universityNametextView"
         android:layout_alignEnd="@+id/universityNametextView"

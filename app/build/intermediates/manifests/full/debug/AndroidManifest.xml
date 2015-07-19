@@ -39,7 +39,7 @@
                 android:value="com.example.qasas.sharenote.universityInfo" />
         </activity>
         <activity
-            android:name="com.example.qasas.sharenote.notesl"
+            android:name="com.example.qasas.sharenote.notesList"
             android:label="@string/title_activity_notesl" >
         </activity>
     </application>

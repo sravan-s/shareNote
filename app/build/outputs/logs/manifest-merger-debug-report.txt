@@ -63,7 +63,7 @@ ADDED from AndroidManifest.xml:27:9
 		ADDED from AndroidManifest.xml:30:13
 	android:name
 		ADDED from AndroidManifest.xml:28:13
-activity#com.example.qasas.sharenote.notesl
+activity#com.example.qasas.sharenote.notesList
 ADDED from AndroidManifest.xml:35:9
 	android:label
 		ADDED from AndroidManifest.xml:37:13

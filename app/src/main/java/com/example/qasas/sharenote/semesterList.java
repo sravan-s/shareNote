@@ -1,9 +1,11 @@
 package com.example.qasas.sharenote;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class semesterList extends ActionBarActivity {
@@ -35,5 +37,8 @@ public class semesterList extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
+    public void openNotesList( View view){
+        Intent notesListIntend = new Intent(semesterList.this, notesList.class);
+        semesterList.this.startActivity(notesListIntend);
+    }
 }
