@@ -16,11 +16,6 @@
         <activity
             android:name="com.example.qasas.sharenote.universityAndCourseSelector"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.qasas.sharenote.universityInfo"
@@ -41,6 +36,15 @@
         <activity
             android:name="com.example.qasas.sharenote.notesList"
             android:label="@string/title_activity_notesl" >
+        </activity>
+        <activity
+            android:name="com.example.qasas.sharenote.LauncherActivicty"
+            android:label="@string/title_activity_launcher_activicty" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

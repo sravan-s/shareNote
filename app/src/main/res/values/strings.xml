@@ -7,4 +7,5 @@
     <string name="title_activity_semester_list">semesterList</string>
     <string name="title_activity_notes_list">notesList</string>
     <string name="title_activity_notesl">notes</string>
+    <string name="title_activity_launcher_activicty">LauncherActivicty</string>
 </resources>

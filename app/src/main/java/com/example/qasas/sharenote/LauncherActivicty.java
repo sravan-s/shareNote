@@ -3,22 +3,27 @@ package com.example.qasas.sharenote;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
-public class notesList extends ActionBarActivity {
+import java.io.Console;
 
+
+public class LauncherActivicty extends ActionBarActivity {
+    final globalData globalVariable = new globalData();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notes_list);
+        setContentView(R.layout.activity_launcher_activicty);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_notes, menu);
+        getMenuInflater().inflate(R.menu.menu_launcher_activicty, menu);
         return true;
     }
 
@@ -35,6 +40,12 @@ public class notesList extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void openingPageSelector( View view){
+        Intent openingPageIntend = new Intent(LauncherActivicty.this, universityAndCourseSelector.class);
+        LauncherActivicty.this.startActivity(openingPageIntend);
+
     }
 
 }
